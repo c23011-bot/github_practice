@@ -10,10 +10,10 @@ public class Calc {
             System.out.println(i + "を足します");
             
             // ミス②: 足し算をしたいのに…？
-            total = i; 
+            total += i; 
         }
 
         // ミス③: 結果を表示したいが、変数名が…？
-        System.out.println("合計は: " + goukei + " です");
+        System.out.println("合計は: " + total + " です");
     }
 }
